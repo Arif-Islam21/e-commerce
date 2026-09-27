@@ -36,7 +36,7 @@ const navbar = () => {
           className="flex items-center gap-2 text-xl font-black tracking-tight sm:text-2xl"
         >
           <span className="text-2xl text-pink-500">✦</span>
-          BRAND
+          ARIF
         </Link>
 
         {/* Desktop Navigation */}
