@@ -64,24 +64,24 @@ Build a production-ready REST API backend for the existing **You and Your Store*
 
 ## Phase 4 — Frontend API Contract
 
-- [ ] Define consistent success and error response formats.
-- [ ] Define API error codes and HTTP status conventions.
-- [ ] Create shared TypeScript types for products, categories, users, carts, orders, payments, coupons, reviews, and pagination.
-- [ ] Build a frontend API client that can be copied into or imported by the TanStack Start application.
-- [ ] Document authentication headers/cookies and request requirements.
-- [ ] Document all public, customer, and admin endpoints.
-- [ ] Add request and response examples for key workflows.
+- [x] Define consistent success and error response formats.
+- [x] Define API error codes and HTTP status conventions.
+- [x] Create shared TypeScript types for products, categories, users, carts, orders, payments, coupons, reviews, and pagination.
+- [x] Build a frontend API client that can be copied into or imported by the TanStack Start application.
+- [x] Document authentication headers/cookies and request requirements.
+- [x] Document all public, customer, and admin endpoints.
+- [x] Add request and response examples for key workflows.
 
 ## Phase 5 — Cart and Wishlist
 
-- [ ] Implement guest cart support using a secure guest identifier.
-- [ ] Implement authenticated cart support.
+- [x] Implement guest cart support using a secure guest identifier.
+- [x] Implement authenticated cart support.
 - [ ] Synchronize guest cart contents after login.
-- [ ] Validate product availability, variants, and stock on every cart mutation.
-- [ ] Implement cart item add, update, remove, and clear endpoints.
-- [ ] Implement wishlist create, list, add, remove, and clear endpoints.
-- [ ] Scope all authenticated cart and wishlist queries to the current user.
-- [ ] Prevent clients from controlling authoritative prices or stock values.
+- [x] Validate product availability, variants, and stock on every cart mutation.
+- [x] Implement cart item add, update, remove, and clear endpoints.
+- [x] Implement wishlist create, list, add, remove, and clear endpoints.
+- [x] Scope all authenticated cart and wishlist queries to the current user.
+- [x] Prevent clients from controlling authoritative prices or stock values.
 
 ## Phase 6 — Coupons, Shipping, and Checkout
 
